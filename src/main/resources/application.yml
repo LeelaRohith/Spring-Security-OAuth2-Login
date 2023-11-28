@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/social
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv1.ba94e8aeb3ec5d3f
+            clientSecret: fa2343d2e26cb6cd6b02f40e7d0adcc3e73c61be
+          google:
+            clientId: 268037272735-g0r1e3hfjem41o87vbvp798rfvlvjt4n.apps.googleusercontent.com
+            clientSecret: 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
